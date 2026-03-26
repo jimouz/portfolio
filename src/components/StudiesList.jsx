@@ -4,17 +4,17 @@ import StudiesCard from './StudiesCard';
 export default function StudiesList() {
     const studies = [
         {
+            title: 'MSc in Applied Electronics Systems',
+            institution: 'International Hellenic University',
+            year: '2021 – 2025',
+            link: 'https://aes.iee.ihu.gr/'
+        },
+        {
             title: 'BSc in Electronic Engineering',
             institution: 'TEI of Crete',
             year: '1998 – 2011',
             link: 'https://ee.hmu.gr/'
         },
-        {
-            title: 'MSc in Applied Electronics Systems',
-            institution: 'International Hellenic University',
-            year: '2021 – 2025',
-            link: 'https://aes.iee.ihu.gr/'
-        }
     ];
 
     return (

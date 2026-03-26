@@ -4,6 +4,11 @@ import ProjectCard from '../components/ProjectCard';
 export default function Projects() {
   const projects = [
     {
+        title: 'trousis.gr',
+        description: 'React + MUI SPA for a photography portfolio, with a responsive gallery and dark/light theme support.',
+        link: 'https://trousis.gr/'
+    },
+    {
         title: 'evangeliakanava.gr',
         description: 'A calm, minimal web experience for a clinical psychologist implemented in React.',
         link: 'https://evangeliakanava.gr/'

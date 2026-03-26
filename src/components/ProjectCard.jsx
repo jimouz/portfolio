@@ -9,6 +9,8 @@ export default function ProjectCard({ title, description, link }) {
             border: '1px solid rgba(255, 255, 255, 0.08)',
             borderRadius: '12px',
             maxWidth: '450px',
+            minWidth: `320px`,
+            minHeight: '220px',
             p: 0,
             transition: '0.25s ease',
             '&:hover': {
